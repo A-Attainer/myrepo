@@ -1,0 +1,126 @@
+/* learn how we can detect screen sizes using media query */
+
+/* different break point */
+
+/* my default is small screen */
+
+/* use variables */
+:root {
+    --bg-color: white;
+    --text-color: black;
+    --primary-color: blue;
+}
+
+header{
+    border-bottom: 1px solid red;
+    padding: 1rem;
+}
+.btn-buy{
+    background-color: darkgoldenrod;
+    padding: 0.2 rem;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+footer{
+    background-color:  orange;
+    text-align: center;
+    color: white;
+
+}
+
+.sub-img{
+    height: 40vh;
+    width: auto;
+    
+
+}
+
+
+
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: slateblue;
+    height: 400px;
+    width: 150px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+.cont > div{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    border: 3px solid red;
+    height: 100vh;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+header h1{
+text-align: center;
+
+}
+
+head h1 span{
+    color: var(--highlight);
+}
+
+/* big screen */
+@media screen and (min-width: 400px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul{
+        display: flex;
+        gap: 1rem;
+
+    }
+}
+
+/*  */
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: black;
+        --text-color: white;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    header h1{
+        border-right: 1px ;
+        border-bottom: none;
+    }
+    nav ul{
+        display: flex;
+    }
+}

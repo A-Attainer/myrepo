@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "banking-app",
+  "version": "1.0.0",
+  "main": "bank.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

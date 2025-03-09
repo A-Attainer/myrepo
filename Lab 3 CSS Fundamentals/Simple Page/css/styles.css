@@ -1,0 +1,29 @@
+h2 {
+    background-color: aqua;
+    color: red;
+}
+body>ul>li {
+    background-color: aqua;
+}
+#second-list {
+
+    background-color: silver;
+    border: 5px solid red;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    padding: 10px;
+}
+.box:hover{
+    background-color: black;
+}
+div { 
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+
+}
