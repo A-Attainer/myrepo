@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Recipe Management</title>
+</head>
+<body>
+    <header class="banner">
+        <h1 class="title">Recipe Management App</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#" onclick="loadPage('edit_page.html')">Add Recipe</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content" class="main-content">
+        <!-- Recipes will be loaded here dynamically -->
+        <div class="recipes" id="recipes">
+            <!-- Sample card will be replaced by dynamically loaded recipes -->
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
